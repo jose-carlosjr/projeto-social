@@ -40,3 +40,22 @@ iframe#tela {
     height: 472px;
     width: 267px;
 }
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #00000051;
+    box-sizing: border-box; /*USAR ESSA CONFIGURAÇÃO PARA A BORDA FAZER PARTE DO OBJETO, NO CASO A BORDA SERÁ USADA NO HOVER*/
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid #ffffff96;
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px #0000009f;
+    transition: transform 0.2s, border 0.3s;
+}
